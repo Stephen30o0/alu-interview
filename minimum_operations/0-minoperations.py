@@ -3,6 +3,8 @@
 This is a function that calculates the minimum number
 of operations needed to result in exactly n 'H' characters in a text file.
 """
+
+
 def minOperations(n):
     """ return 0 if n is less than or equal to 0"""
     if n <= 0:
@@ -19,4 +21,3 @@ def minOperations(n):
         i += 1
     """ return the total number of operations"""
     return operations
-
