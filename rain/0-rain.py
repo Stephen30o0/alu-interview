@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""calculate how many square units of 
+"""calculate how many square units of
 water will be retained after it rains.
 """
 
