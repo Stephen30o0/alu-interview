@@ -1,4 +1,4 @@
- #!/usr/bin/python3
+#!/usr/bin/python3
 """This module provides a function to generate a 
 Pascal's Triangle up to a given number of rows.
 """
