@@ -1,4 +1,15 @@
+ #!/usr/bin/python3
+"""This module provides a function to generate a 
+Pascal's Triangle up to a given number of rows.
+"""
+
+
 def pascal_triangle(n):
+    """
+    Generates and returns Pascal's Triangle up to
+    n rows as a list of lists. Returns an empty list
+    if n is less than or equal to 0
+    """
     if n <= 0:
         return []
     triangle = [[1]]
